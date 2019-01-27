@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+section{
+	float: left;
+	border: 1px solid black;
+	background-color: #A4A4A4;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#s1{
+	background-color: #F5A9A9;
+	position: absolute;
+	top: 0px;
+	right:0px;
+	width:100px;
+	text-align: center;
+	font-size:24px;
+	font-family: Helvetica, sans-serif;
+}
+#s2{
+	background-color: #DF013A;
+	position: absolute;
+	top: 0px;
+	right:0px;
+	color: white;
+	width:100px;
+	text-align: center;
+	font-size:24px;
+	font-family: Helvetica, sans-serif;
+}
+#s3{
+	background-color: #F5DA81;
+	position: absolute;
+	top: 0px;
+	right:0px;
+	width:100px;
+	text-align: center;
+	font-size:24px;
+	font-family: Helvetica, sans-serif;
+}
+
+.text{
+	position:relative;
+	padding-top:15px; 
+	color: black;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+/*********** Desktop **********/
+@media (min-width: 992px) {
+	.lg3{
+		float: left;
+		border: 1px solid black;
+		width: 30%;
+	}
+}
+/*********** Tablet  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.md2{
+		float: left;
+		border: 1px solid black;
+		width: 45%;
+	}
+	#s4{
+		clear: both;
+	}
+}
+/*********** Mobile  **********/
+
