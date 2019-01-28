@@ -19,6 +19,7 @@ section{
 }
 
 #s1{
+	border:1px solid black;
 	background-color: #F5A9A9;
 	position: absolute;
 	top: 0px;
@@ -29,6 +30,7 @@ section{
 	font-family: Helvetica, sans-serif;
 }
 #s2{
+	border:1px solid black;
 	background-color: #DF013A;
 	position: absolute;
 	top: 0px;
@@ -40,6 +42,7 @@ section{
 	font-family: Helvetica, sans-serif;
 }
 #s3{
+	border:1px solid black;
 	background-color: #F5DA81;
 	position: absolute;
 	top: 0px;
@@ -52,7 +55,9 @@ section{
 
 .text{
 	position:relative;
-	padding-top:15px; 
+	padding-top:15px;
+	padding-left: 10px;
+	padding-right: 10px; 
 	color: black;
 	font-family: Helvetica, sans-serif;
 	font-size: 14px;
@@ -61,7 +66,7 @@ section{
 
 /*********** Desktop **********/
 @media (min-width: 992px) {
-	.lg3{
+	.lg4{
 		float: left;
 		border: 1px solid black;
 		width: 30%;
@@ -69,13 +74,15 @@ section{
 }
 /*********** Tablet  **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	.md2{
+	.md6{
 		float: left;
 		border: 1px solid black;
 		width: 45%;
 	}
-	#s4{
-		clear: both;
+	.md12{
+		float: left;
+		border: 1px solid black;
+		width: 94%;
 	}
 }
 /*********** Mobile  **********/
